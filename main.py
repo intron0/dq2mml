@@ -281,7 +281,7 @@ def spc():
         outp=scan(track,outp, False)
     for callPattern in subPatternIds:
         outp=scan(callPattern,outp, True)
-    ff=open("C:/Users/int/Documents/emu/SPC/AMK/AddmusicK_1.0.6/music/songg.txt", "w")
+    ff=open("C:/Users/user/Documents/emu/SPC/AMK_1.0.6/music/songg.txt", "w")
     ff.write(outp)
     ff.close()
 
